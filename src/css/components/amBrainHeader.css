@@ -1,0 +1,269 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.transparentHeader {
+    z-index: 1;
+    position: fixed;
+    width: 100vw;
+    height: 90px;
+    border-bottom: 1px solid #bbbbbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    transition: background-color 0.6s ease;
+}
+
+.fillHeader {
+    z-index: 1;
+    position: fixed;
+    width: 100vw;
+    height: 90px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #090001;
+    transition: background-color 0.6s ease;
+}
+
+.filledMenu {
+    background: #005358;
+}
+
+.transparentMenu {
+    background: #FFFFFF;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.transparentHeader nav,
+.fillHeader nav {
+    flex: 2;
+    display: flex;
+    margin: 0 24px 0;
+    align-items: center;
+    max-width: 660px;
+    border-right: 1px solid #bbbbbb;
+    height: 100%;
+}
+
+.fillHeader nav{
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+
+.transparentHeader .logoContent,
+.fillHeader .logoContent {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transparentHeader .logoContent a,
+.fillHeader .logoContent a {
+    cursor: pointer;
+}
+
+.fillHeader .logoContent img {
+    height: 40px;
+}
+
+.transparentHeader .navbar,
+.fillHeader .navbar {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 32px;
+    height: 100%;
+}
+
+.transparentHeader .navbar nav ul,
+.fillHeader .navbar nav ul {
+    display: flex;
+    flex: 1;
+    line-height: 22px;
+    padding: 14px 5px;
+    font-weight: 700;
+    font-size: .8125rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: Poppins,sans-serif;
+}
+
+.transparentHeader .navbar nav ul li a,
+.fillHeader .navbar nav ul li a {
+    font-size: 15px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.transparentHeader .navbar nav ul li,
+.fillHeader .navbar nav ul li {
+    list-style-type: none;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    transition: color .1s  linear;
+}
+
+.transparentHeader .navbar nav ul li:hover,
+.fillHeader .navbar nav ul li:hover {
+    color: #626161;
+}
+
+.transparentHeader .navbar button,
+.fillHeader .navbar button {
+    border: 1px solid #AAEBFF;
+    border-radius: 3px;
+    background-color: #AAEBFF;
+    color: #626161;
+    filter: drop-shadow(1px 2px 3px rgba(170, 235, 255, 0.74));
+    height: 40px;
+    padding: 0 16px;
+    cursor: pointer;
+}
+
+.fillHeader .navbar button {
+    border: 1px solid #5199B0;
+    background-color: #5199B0;
+    color: #FFFFFF;
+    filter: drop-shadow(3px 2px 6px rgba(128, 193, 214, 0.25));
+}
+
+.transparentHeader .navbar button:focus,
+.fillHeader .navbar button:focus {
+    outline: none;
+}
+ 
+.mobileMenuIcon {
+    font-size: 30px;
+    margin-right: 8%;
+    cursor: pointer;
+    display: none;
+    position: relative;
+}
+
+.mobileMenuList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 90px;
+    /*position: relative;*/
+    position: fixed;
+    z-index: 9999;
+}
+
+.filledMenu .mobileMenuNavbar,
+.transparentMenu  .mobileMenuNavbar {
+    padding: 20px 0;
+}
+
+.filledMenu nav ul,
+.transparentMenu nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.filledMenu .mobileContactUs button,
+.transparentMenu .mobileContactUs button {
+    border-radius: 15px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.transparentMenu .mobileContactUs button {
+    background: #2D5E6D;
+    color: #FFFFFF;
+}
+
+.filledMenu .mobileContactUs button {
+    background: #7CE0FF;
+    color: #4E4E4E;
+}
+
+.mobileMenuList nav ul li {
+    margin-bottom: 15px;
+    list-style-type: none;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    transition: color .1s  linear;
+}
+
+.mobileMenuList nav li a {
+    text-decoration: none;
+    letter-spacing: 0.06em;
+    font-size: 15px;
+}
+
+.filledMenu nav li a {
+    color: #FFFFFF;
+}
+
+.transparentMenu nav li a {
+    color: #000000;
+}
+
+.mobileMenuList nav li a:hover {
+    color: #626161;
+}
+
+.mobileMenuList .closeMenuList {
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+
+.filledMenu .closeMenuList {
+    color: #FFFFFF;
+}
+
+.transparentMenu .closeMenuList {
+    color: #000000;
+}
+
+@media (max-width: 768px) {
+    .transparentHeader .navbar,
+    .fillHeader .navbar {
+        display: none;
+    }
+
+    .transparentHeader .logoContent,
+    .fillHeader .logoContent {
+        justify-content: flex-start;
+        margin-left: 25px;
+    }
+
+    .transparentHeader .mobileMenuIcon,
+    .fillHeader .mobileMenuIcon {
+        display: block;
+    }
+}

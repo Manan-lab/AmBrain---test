@@ -1,0 +1,96 @@
+.amBrainTeamSection{
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+
+}
+
+.amBrainTeamSection .welcomeContent {
+    min-height: 100vh;
+    background-color: #F0F0F0;
+    display: flex;
+}
+
+.amBrainTeamSection .welcomeContent  {
+    background-color: #DCE0E0;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../../images/soFunIg.jpg");
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.amBrainTeamSection .welcomeContent .animItem {
+    margin: 0 30px;
+}
+
+.amBrainTeamSection .welcomeContent .animItem div {
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.amBrainTeamSection .welcomeContent .teamMember {
+    height: 100vh;
+}
+
+.amBrainTeamSection .teamMemberContent {
+    background-color: #FFFFFF;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.amBrainTeamSection .teamMemberContent .teamHeader {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    position: sticky;
+    background-color: #020067ad;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.amBrainTeamSection .teamMemberContent .teamHeader h1 {
+    line-height: 22px;
+    padding: 14px 5px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: Poppins,sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 4px;
+    font-size: 42px;
+}
+
+.amBrainTeamSection .teamMemberContent .teamHeader span {
+    color: darkgoldenrod;
+}
+
+.amBrainTeamSection .teamMemberContent .teamHeader .lightBorder {
+    background-color: #FFFFFF;
+    height: 12px;
+    width: 400px;
+}
+
+.amBrainTeamSection .teamMemberContent .teamMembersBlock {
+    display: flex;
+    max-width: 840px;
+    flex-direction: column;
+    margin: 80px 0;
+    width: 100%;
+}
+
+.amBrainTeamSection .teamMemberContent .teamMembersBlock .teamMemberItem {
+    display: flex;
+    margin: 50px 0;
+}
+
+@media(max-width: 992px) {}
+@media(max-width: 768px) {}
+@media(max-width: 576px) {}

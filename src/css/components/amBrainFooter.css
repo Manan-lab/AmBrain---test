@@ -1,0 +1,163 @@
+.amBrainFooter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #282828;
+    padding-top: 5px;
+    border-top: 5px solid #484848;
+    color: #757575;
+}
+
+.amBrainFooter .firstContent{
+    height: 237px;
+    width: 100%;
+    display: flex;
+    max-width: 1320px;
+}
+
+.amBrainFooter .secondContent {
+    padding: 20px;
+    height: 60px;
+    width: calc(100% - 40px);
+    justify-content: space-between;
+    display: flex;
+    background-color: #090001;
+    border-top-color: rgba(255,255,255,0.15);
+}
+
+.amBrainFooter h6 {
+    text-transform: uppercase;
+    margin: 0 0 15px 0;
+    color: #967f55
+}
+
+.amBrainFooter .firstContent .logoContent {
+    align-items: center;
+    display: flex;
+    margin-right: 170px;
+}
+
+.amBrainFooter .firstContent .logoContent img {
+    height: 40px;
+}
+
+.amBrainFooter .firstContent .infoTabs {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    margin: 40px 0;
+}
+
+.amBrainFooter .firstContent .infoTabs > div {
+    margin: 0 20px;
+    flex: 1;
+    padding-left: 10px;
+    border-left: 1px solid transparent;
+    border-left-color: rgba(255,255,255,0.15);
+}
+
+.amBrainFooter .firstContent .contactContent > div {
+    display: flex;
+    /*align-items: end;*/
+}
+
+.amBrainFooter .firstContent .contactContent .phoneInfo {
+    display: flex;
+    font-size: 18px;
+}
+.amBrainFooter .firstContent .contactContent .phoneInfo span {
+    transform: rotate(90deg);
+}
+
+.amBrainFooter .firstContent .contactContent > div p {
+    margin: 0 0 10px 10px;
+    font-size: 16px;
+}
+
+.amBrainFooter .firstContent .contactContent .address {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 10px;
+}
+
+.amBrainFooter .firstContent .contactContent .address span {
+    margin-bottom: 5px;
+}
+
+.amBrainFooter .secondContent .copyrights {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #545154;
+}
+
+.amBrainFooter .secondContent .followUs {
+    font-size: 18px;
+    display: flex;
+    height: fit-content;
+    align-items: baseline;
+    color: #FFFFFF;
+    flex: 1;
+    justify-content: center;
+}
+
+.amBrainFooter .secondContent .followUs h6 {
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.amBrainFooter .secondContent .followUs > div {
+    margin: 10px;
+    display: flex;
+}
+
+.amBrainFooter .secondContent .followUs > div > div {
+    margin: 10px;
+    border-radius: 3px;
+    padding: 6px;
+    background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, #fff0 50%, #155cfb 50%);
+    transition: background-position .2s ease-in-out, color .2s ease-in-out;
+}
+
+.amBrainFooter .secondContent .followUs > div > div:hover {
+    background-position: 0 100%;
+    color: #fff;
+}
+
+.amBrainFooter .secondContent .goTop {
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border: 1px solid rgba(255,255,255,0.15);
+}
+
+@media (max-width: 992px) {
+    .amBrainFooter .firstContent .logoContent {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .amBrainFooter .firstContent .infoTabs > div {
+        margin: 0 10px;
+    }
+
+    .amBrainFooter .firstContent .infoTabs {
+        margin: 20px;
+    }
+
+    .amBrainFooter .firstContent {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 15px 0;
+    }
+}

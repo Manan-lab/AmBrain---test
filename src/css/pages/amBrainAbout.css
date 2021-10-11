@@ -1,0 +1,379 @@
+.amBrainAboutContent {
+    padding-top: 90px;
+    min-height: calc(100vh - 437px);
+}
+
+.amBrainAboutContent .aboutTopContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.aboutTopContent .topText p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 55px;
+    color: #000000;
+    margin: 0 0 3px 0;
+}
+
+.aboutTopContent .topText .companyName {
+    text-align: right;
+}
+
+.aboutTopContent .topCircle {
+    display: flex;
+}
+
+.aboutTopContent .topCircle .bigCircle {
+    width: 400px;
+    height: 400px;
+    background: #03848C;
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/*.aboutTopContent .topCircle .bigCircle .bigCircleText {*/
+/*    !*position: absolute;*!*/
+/*    !*top: 45.8%;*!*/
+/*}*/
+
+.aboutTopContent .topCircle .bigCircle .bigCircleText .companyInfo {
+    margin-left: 10px;
+}
+
+.aboutTopContent .topCircle .bigCircle .bigCircleText p {
+    margin: 0 0 3px 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 55px;
+    color: #FFFFFF;
+}
+
+.aboutTopContent .smallCircle {
+    width: 70px;
+    height: 70px;
+    background: #2D5E6D;
+    border-radius: 50%;
+}
+
+.amBrainAboutContent .mainImage {
+    width: 100%;
+    height: 500px;
+    margin-top: 150px;
+}
+
+.amBrainAboutContent .mainImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.amBrainAboutContent .coffeeTime .coffeeTimeTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.amBrainAboutContent section {
+    margin-top: 30px;
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.amBrainAboutContent section p {
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.045em;
+    color: #000000;
+}
+
+.amBrainAboutContent section h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.045em;
+    color: #000000;
+    margin-bottom: 6px;
+}
+
+.amBrainAboutContent section .sectionTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.amBrainAboutContent section .sectionImageContent {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding-bottom: 40px;
+}
+
+.amBrainAboutContent section .sectionImages {
+    width: 500px;
+    height: 100%;
+    margin: 20px;
+}
+
+.amBrainAboutContent section .sectionImages img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.amBrainAboutContent section .sectionImageContent .sectionImage {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+}
+
+.amBrainAboutContent section .sectionImageContent .sectionImage img {
+    height: 100%;
+    width: 1000px;
+    object-fit: cover;
+}
+
+.amBrainAboutContent .aboutTechnologies .technologiesTop {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.amBrainAboutContent .aboutTechnologies .technologiesTop  h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.amBrainAboutContent .aboutTechnologies .technologieTop {
+    margin: 0 40px 0 40px;
+}
+
+.amBrainAboutContent .aboutTechnologies .technologieTop h3 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin: 0;
+}
+
+.amBrainAboutContent .aboutTechnologies .technologieTop p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.frontendTechnologiesWrapper .frontendTechnologies {
+    display: flex;
+    margin: 40px;
+}
+
+.amBrainAboutContent .aboutTechnologies .technologie {
+    margin-right: 30px;
+}
+
+.amBrainAboutContent .aboutTechnologies .logo {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.amBrainAboutContent .aboutTechnologies .logo img {
+    height: 100%;
+    width: 90px;
+}
+
+.amBrainAboutContent .aboutTechnologies .technologie .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.amBrainAboutContent .aboutTechnologies .technologie .info h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 7px;
+}
+
+.amBrainAboutContent .aboutTechnologies .technologie .info p {
+    text-align: center;
+    width: 200px;
+}
+
+.aboutTechnologies .backendTechnologiesWrapper .backendTechnologies {
+    display: flex;
+    margin: 40px;
+    padding-bottom: 40px;
+}
+
+@media(max-width: 992px) {
+    .sectionTop{
+        margin-bottom: 15px;
+    }
+
+    .aboutSectionWrapper{
+        max-width: 990px;
+    }
+
+    .amBrainAboutContent section .sectionImageContent .sectionImage img{
+        width: 950px;
+    }
+
+    .amBrainAboutContent section .sectionImages{
+        width: 440px;
+    }
+
+    .aboutTechnologies{
+        max-width: 990px;
+    }
+
+    .amBrainAboutContent section .sectionImageContent{
+        margin: unset;
+    }
+
+    .aboutSection{
+        max-width: 990px;
+    }
+
+    .amBrainAboutContent .aboutTechnologies .technologie{
+        margin-right: 24px;
+    }
+}
+
+@media(max-width: 768px) {
+    .aboutTopContent .topCircle .bigCircle{
+        width: 300px;
+        height: 300px;
+    }
+
+    .amBrainAboutContent section p{
+        max-width: 700px;
+    }
+
+    .aboutTopContent .topText p,
+    .aboutTopContent .topCircle .bigCircle .bigCircleText p{
+        font-size: 35px;
+    }
+
+    .aboutSectionWrapper{
+        max-width: 750px;
+    }
+
+    .amBrainAboutContent section .sectionImageContent .sectionImage img{
+        width: 700px;
+    }
+
+    .amBrainAboutContent section .sectionImages{
+        width: 715px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .amBrainAboutContent section .sectionImages img{
+        max-width: 730px;
+    }
+
+    .aboutTechnologies{
+        max-width: 760px;
+    }
+
+    .amBrainAboutContent section .sectionImageContent{
+        display: grid;
+    }
+
+    .frontendTechnologiesWrapper .frontendTechnologies,
+    .aboutTechnologies .backendTechnologiesWrapper .backendTechnologies {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .amBrainAboutContent .aboutTechnologies .technologie{
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width: 576px) {
+    .aboutTopContent .topCircle .bigCircle{
+        width: 250px;
+        height: 250px;
+    }
+
+    .amBrainAboutContent section p{
+        max-width: 500px;
+    }
+
+    .aboutTopContent .topText p,
+    .aboutTopContent .topCircle .bigCircle .bigCircleText p{
+        font-size: 25px;
+    }
+
+    .aboutSectionWrapper{
+        max-width: 570px;
+    }
+
+    .amBrainAboutContent section .sectionImageContent .sectionImage img{
+        width: 500px;
+    }
+
+    .amBrainAboutContent section .sectionImages{
+        width: 515px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .amBrainAboutContent section .sectionImages img{
+        max-width: 530px;
+    }
+
+    .aboutTechnologies{
+        max-width: 570px;
+    }
+
+    .amBrainAboutContent section .sectionImageContent{
+        display: grid;
+    }
+
+    .frontendTechnologiesWrapper .frontendTechnologies,
+    .aboutTechnologies .backendTechnologiesWrapper .backendTechnologies {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .amBrainAboutContent .aboutTechnologies .technologie{
+        margin-bottom: 25px;
+    }
+}

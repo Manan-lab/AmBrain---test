@@ -1,0 +1,108 @@
+.shortInfoContent {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    color: #333333;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    font-family: Poppins,sans-serif;
+}
+
+.shortInfoContent .cardsContent {
+    max-width: 1320px;
+    display: flex;
+    justify-content: center;
+}
+
+.shortInfoContent .infoCard {
+    width: 440px;
+    margin: 0 10px;
+}
+
+.shortInfoContent .infoCard h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333;
+
+}
+
+.shortInfoContent .cardsContent .infoCard .cardIcon {
+    font-size: 32px;
+    color: #19656b;
+}
+
+.shortInfoContent .infoCard p {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.8;
+    color: #555555;
+}
+
+@media(max-width: 992px) {
+    .shortInfoContent{
+        height: max-content;
+    }
+
+    .shortInfoContent .cardsContent{
+        display: grid;
+    }
+
+    .shortInfoContent .cardsContent .infoCard{
+        /*width: unset;*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 25px 0;
+    }
+}
+
+@media(max-width: 1334px) {
+
+    .shortInfoContent .cardsContent{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .shortInfoContent .infoCard{
+        width: unset;
+        padding: 10px;
+    }
+
+}
+
+
+@media(max-width: 768px) {
+    /*.shortInfoContent .cardsContent{*/
+    /*    max-width: 992px;*/
+    /*    display: grid;*/
+    /*    grid-template-columns: repeat(3, 1fr);*/
+    /*}*/
+    .shortInfoContent .cardsContent .infoCard {
+        margin: 25px 15px;
+    }
+
+}
+
+@media(max-width: 576px) {
+
+    .shortInfoContent{
+        height: max-content;
+    }
+
+    .shortInfoContent .cardsContent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .shortInfoContent .cardsContent .infoCard{
+        width: unset;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        text-align: center;
+    }
+}

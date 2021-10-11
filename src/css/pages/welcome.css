@@ -1,0 +1,224 @@
+.amBrainWelcome {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-family: Poppins,sans-serif;
+    align-items: center;
+}
+
+.amBrainWelcome .mainContent {
+    height: 100vh;
+    background-color: #03848C;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.amBrainWelcome .bodyContent {
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1;
+}
+
+.amBrainWelcome .bodyContent .acquaintance {
+    display: flex;
+    flex: 1;
+}
+
+.amBrainWelcome .bodyContent .infoContent {
+    flex-direction: column;
+    flex: 1;
+    padding: 0 72px;
+    display: flex;
+    justify-content: center;
+}
+
+.amBrainWelcome .bodyContent .infoContent h1 {
+    font-size: 52px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0;
+    font-family: Montserrat;
+}
+
+.amBrainWelcome .bodyContent .infoContent h6 {
+    outline: none;
+    min-height: 35px;
+    font-size: 20px;
+    line-height: 35px;
+    white-space: pre-line;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-weight: unset;
+    margin: 5px;
+    font-family: Roboto;
+}
+
+.amBrainWelcome .bodyContent .infoContent p {
+    color: #D4D4D4;
+    font-size: 20px;
+    font-family: Roboto;
+    letter-spacing: 1px;
+    margin: 5px 0;
+}
+
+.amBrainWelcome .bodyContent .infoContent .goText {
+    margin: 10px 0;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: Montserrat;
+}
+
+.amBrainWelcome .bodyContent .imageContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.amBrainWelcome .bodyContent .pageDownContent {
+    display: flex;
+    height: 40px;
+    margin: 20px 40px;
+    justify-content: flex-end;
+}
+
+.amBrainWelcome .contactSection {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.amBrainWelcome .contactSection .contactContent {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 1320px;
+    margin: 30px 0;
+}
+
+.amBrainWelcome .contactSection .contactContent > div {
+    flex: 1;
+    display: flex;
+    padding: 0 20px;
+}
+
+@media(max-width: 1334px) {
+    .amBrainWelcome .mainContent{
+        height: max-content;
+        margin-bottom: 45px;
+    }
+
+    .amBrainWelcome .bodyContent{
+        max-width: 1330px;
+    }
+
+    .amBrainWelcome .bodyContent .imageContent{
+        height: max-content;
+        margin-top: 100px;
+    }
+
+    .amBrainWelcome .bodyContent .acquaintance{
+        display: grid;
+    }
+
+    .amBrainWelcome .bodyContent .infoContent{
+        width: unset;
+        padding: 0 15px;
+    }
+
+    .amBrainWelcome .bodyContent .infoContent h1{
+        font-size: 50px;
+        margin: 40px 0;
+    }
+
+    .amBrainWelcome .bodyContent .infoContent p,
+    .amBrainWelcome .bodyContent .infoContent h6{
+        font-size: 25px;
+    }
+
+    .amBrainWelcome .bodyContent .infoContent .goText{
+        font-size: 20px;
+    }
+
+    .amBrainWelcome .bodyContent .imageContent img{
+        width: 100%;
+    }
+}
+
+@media(max-width: 992px) {
+    .amBrainWelcome .mainContent{
+        height: max-content;
+        margin-bottom: 45px;
+    }
+
+    .amBrainWelcome .bodyContent{
+        max-width: 990px;
+    }
+
+    .amBrainWelcome .bodyContent .imageContent{
+        height: max-content;
+        margin-top: 100px;
+    }
+
+    .amBrainWelcome .bodyContent .acquaintance{
+        display: grid;
+    }
+
+    .amBrainWelcome .bodyContent .infoContent{
+        width: unset;
+        padding: 0 15px;
+    }
+
+    .amBrainWelcome .bodyContent .infoContent h1{
+        font-size: 35px;
+        margin: 30px 0;
+    }
+
+    .amBrainWelcome .bodyContent .imageContent img{
+        width: 100%;
+    }
+}
+
+@media(max-width: 576px) {
+
+    .amBrainWelcome .mainContent{
+        height: max-content;
+        margin-bottom: 20px;
+    }
+
+    .amBrainWelcome .bodyContent{
+        max-width: 570px;
+    }
+
+    .amBrainWelcome .bodyContent .imageContent{
+        height: 250px;
+        margin-top: 100px;
+    }
+
+    .amBrainWelcome .bodyContent .acquaintance{
+        display: grid;
+    }
+
+    .amBrainWelcome .bodyContent .infoContent{
+        width: unset;
+        padding: 0 15px;
+    }
+
+    .amBrainWelcome .bodyContent .infoContent h1{
+        font-size: 35px;
+    }
+
+    .amBrainWelcome .bodyContent .imageContent img{
+        width: 100%;
+    }
+}
+
+

@@ -1,0 +1,80 @@
+.teamMemberBlock {
+    display: flex;
+    justify-content: space-between;
+    font-family: Poppins, sans-serif;
+}
+
+.teamMemberBlock .teamMemberAvatarBlock {
+    height: 350px;
+    width: 280px;
+    background-color: #DCE0E0;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamMemberBlock .memberInfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    order: 1;
+}
+
+.teamMemberBlock .memberInfo .memberProfile {
+    color: #1abc9c;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.teamMemberBlock .memberInfo .memberName {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333;
+    font-size: 1.75rem;
+    margin: 0;
+}
+
+.teamMemberBlock .memberInfo .separator {
+    height: 10px;
+    background-color: #757575;
+    width: 200px;
+    margin: 5px 0;
+}
+
+.teamMemberBlock .memberInfo .memberDescription {
+    flex: 1;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #757575;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    font-style: italic;
+}
+
+.teamMemberBlock .teamMemberAvatarBlock .memberAvatar {
+    height: 300px;
+    width: 200px;
+}
+
+.teamMemberBlock .teamMemberAvatarBlock .memberAvatar img {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    position: relative;
+}
+
+.teamMemberBlock .teamMemberAvatarBlock .memberAvatar img:hover {
+    transform: scaleX(-1);
+}

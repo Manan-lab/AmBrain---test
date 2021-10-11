@@ -1,0 +1,188 @@
+.portfolioProject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.usedTechnologies{
+    width: 700px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.technologiesList h4{
+    color: #2D5E6D;
+    font-weight: 100;
+}
+
+.usedTechnologies img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.portfolioProject .projectImage {
+    width: 700px;
+    height: 100%;
+}
+
+.portfolioProject .projectInfo {
+    width: 700px;
+    margin: 15px 0 0 20px;
+}
+
+.portfolioProject .projectImage img {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+.portfolioProject .projectInfo .projectName {
+    display: flex;
+}
+
+.portfolioProject .projectInfo .projectName a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 19px;
+    color: #2D5E6D;
+}
+
+.portfolioProject .projectInfo .projectDesc {
+    width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.portfolioProject .projectInfo .projectName .nameElipse {
+    width: 10px;
+    height: 10px;
+    background: #abd6e4;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.portfolioProject .projectInfo .projectLogo {
+    width: 20px;
+    height: 100%;
+    margin-right: 5px;
+}
+
+.portfolioProject .projectInfo .projectLogo img {
+    width: 100%;
+    height: 20px;
+}
+
+.portfolioProjectWrapper .projectRight .projectElipseWrapper {
+    flex-direction: row-reverse;
+    margin-left: 15px;
+}
+
+.portfolioProjectWrapper .projectRight .projectInfo {
+    margin: 15px 20px 0 0;
+}
+
+.portfolioProjectWrapper .projectRight .projectInfo .projectLogo {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.portfolioProjectWrapper .projectRight .projectInfo .projectName .nameElipse {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.projectsHeadline{
+    color: #000000;
+    background-color: #000000;
+    height: .5px;
+    border-color : #000000;
+    width: 150px;
+    margin: 45px;
+}
+
+@media(max-width: 992px) {
+    .portfolioProject .projectImage {
+        width: 730px;
+    }
+
+    .portfolioProject .projectInfo {
+        width: 730px;
+        font-size: 12px;
+    }
+
+    .portfolioProject .projectInfo .projectDesc{
+        width: 730px;
+    }
+
+    .portfolioProject .projectImage img {
+        height: 400px;
+    }
+
+    .usedTechnologies {
+        width: 730px;
+    }
+
+}
+
+@media(max-width: 768px) {
+
+    .portfolioProject .projectImage {
+        width: 530px;
+    }
+
+    .portfolioProject .projectInfo {
+        width: 530px;
+        font-size: 12px;
+    }
+
+    .portfolioProject .projectInfo .projectDesc{
+        width: 530px;
+    }
+
+    .portfolioProject .projectImage img {
+        height: 300px;
+    }
+
+    .usedTechnologies {
+        width: 530px;
+    }
+
+    .projectElipseWrapper {
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width: 576px) {
+    .portfolioProject .projectImage {
+        width: 300px;
+    }
+
+    .portfolioProject .projectInfo {
+        width: 300px;
+        font-size: 12px;
+    }
+
+    .portfolioProject .projectInfo .projectDesc{
+        width: 300px;
+    }
+
+    .portfolioProject .projectImage img {
+        height: 200px;
+    }
+
+    .usedTechnologies {
+        width: 300px;
+    }
+
+    .portfolioProject .projectInfo .projectName a{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,263 @@
+.amBrainJobContent {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.amBrainJobContent .jobsTop {
+    margin-top: 40px;
+}
+
+.amBrainJobContent .jobsTop h3 {
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.amBrainJobContent .jobsTop .jobsTopText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.amBrainJobContent .jobsTop .jobsTopText p {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000000;
+}
+
+.amBrainJobContent .jobsTop .jobsTopImages {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.jobsTop .jobsTopImages .leftImage, .jobsTopImages .rightImage {
+    width: 500px;
+    height: 100%;
+    margin-left: 60px;
+}
+
+.jobsTopImages .leftImage img, .jobsTopImages .rightImage img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.amBrainJobContent .imgWrapper {
+    background-repeat: no-repeat;
+    background-image: url("../../images/jobs-back.png");
+    height: 500px;
+    background-size: cover;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+}
+
+/*.amBrainJobContent .imgWrapper img {*/
+/*    background-position: center center;*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;*/
+/*    height: 100%;*/
+/*    border-radius: 3px;*/
+/*    background-attachment: fixed;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-between;*/
+/*    position: relative;*/
+/*}*/
+
+.amBrainJobContent .noJobsContent {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center; 
+    margin: 100px 0 100px 0;
+    position: relative;
+}
+
+.amBrainJobContent .noJobsContent .noJobsCircle {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: #4791A8;
+    display: flex;
+    justify-content: center;
+}
+
+.amBrainJobContent .noJobsContent .noJobsText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+}
+
+.amBrainJobContent .noJobsContent .noJobsText h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.amBrainJobContent .noJobsContent .noJobsText p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+    margin: 0;
+}
+
+.amBrainJobContent .noJobsContent .noJobsSendCV {
+    position: absolute;
+    top: 40%;
+}
+
+.amBrainJobContent .noJobsContent .noJobsSendCV .joinUsBtn {
+    width: 170px;
+    height: 65px;
+    background: #2D5E6D;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.amBrainJobContent .openedJobsContent {
+    display: flex;
+    flex: 1;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+
+.amBrainJobContent .openedJobsContent .jobItemsBlock {
+    display: flex;
+    flex: 1;
+    background-color: #FFFFFF;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+
+.amBrainJobContent .openedJobsContent .jobItemsBlock .jobCardItem{
+   margin: 20px;
+}
+
+
+@media(max-width: 1134px) {
+
+    .jobsTop .jobsTopImages .leftImage, .jobsTopImages .rightImage,
+    .jobsTop .jobsTopImages .leftImage, .jobsTopImages .leftImage{
+        width: unset;
+        margin: unset;
+        height: unset;
+        padding: 10px;
+    }
+
+    .amBrainJobContent .jobsTop .jobsTopText{
+        padding: 10px;
+    }
+
+    .amBrainJobContent .noJobsContent .noJobsText p{
+        text-align: center;
+    }
+}
+
+@media(max-width: 768px) {
+
+    .amBrainJobContent{
+        max-width: 768px;
+    }
+
+    .amBrainJobContent .imgWrapper{
+        height: 350px;
+        background-size: unset;
+    }
+
+    .amBrainJobContent .jobsTop .jobsTopImages{
+        display: grid;
+        grid-gap: 20px;
+    }
+
+    .amBrainJobContent .jobsTop .jobsTopText{
+        padding: 10px;
+    }
+
+    .amBrainJobContent .noJobsContent .noJobsText{
+        top: 0;
+        padding: 0 3px;
+        margin-bottom: 30px;
+    }
+
+    .amBrainJobContent .noJobsContent .noJobsText h3 {
+        font-size: 24px;
+    }
+    .amBrainJobContent .noJobsContent .noJobsCircle{
+        width: 450px;
+        height: 450px;
+    }
+
+    .jobsTop .jobsTopImages .leftImage, .jobsTopImages .rightImage{
+        margin: unset;
+        width: unset;
+    }
+
+    .jobsTopImages .leftImage img, .jobsTopImages .rightImage img{
+        height: unset;
+    }
+}
+
+@media(max-width: 464px) {
+
+    .amBrainJobContent .noJobsContent{
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0;
+    }
+
+    .amBrainJobContent .noJobsContent .noJobsCircle{
+        width: 150px;
+        height: 150px;
+    }
+
+    .amBrainJobContent .noJobsContent .noJobsText{
+        margin-bottom: 30px;
+        position: unset;
+    }
+
+    .amBrainJobContent .noJobsContent .noJobsSendCV{
+        position: unset;
+    }
+    .amBrainJobContent .noJobsContent .noJobsText h3{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .amBrainJobContent .noJobsContent .noJobsText p{
+        font-size: 22px;
+    }
+}

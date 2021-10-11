@@ -1,0 +1,108 @@
+.contactUs {
+    display: flex;
+    flex-direction: column;
+    color: #333333;
+    min-width: 300px;
+}
+
+.contactUs h4 {
+    color: #535353;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: normal;
+}
+
+.contactUs input,
+.contactUs textarea {
+    height: 40px;
+    margin: 0px 0 20px 0;
+    padding: 10px;
+    color: rgba(113, 113, 113, 0.9);
+    font-size: 16px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    border: 0;
+    width: 100%;
+}
+
+.contactUs input:focus {
+    color: #666;
+    background-color: white;
+    outline: 1px solid #ccc;
+}
+
+.contactUs textarea:focus {
+    color: #666;
+    background-color: white;
+    outline: 1px solid #ccc;
+}
+
+.contactUs textarea {
+    min-height: 125px;
+    resize: none;
+}
+
+.contactUs .formAgree {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactUs .formAgree .errorMessage{
+    margin: 10px;
+}
+
+.contactUs .formAgree input {
+    height: fit-content;
+    width: 16px;
+    margin-right: 5px;
+}
+
+.contactUs .sendContent {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.contactUs .sendContent > div {
+    height: 40px;
+    color: #FFFFFF;
+    background-color: #090001;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:  0 5px 0 10px;
+
+}
+
+.contactUs .sendContent .sendIcon {
+    padding:  0 10px;
+    border-left: 1px solid transparent;
+    border-left-color: rgba(255,255,255,0.15);
+}
+
+.contactUs .sendContent .sendText {
+    margin-right: 5px;
+
+}
+
+.errorMessage{
+    color: red;
+}
+
+.invalid{
+    background-color: white!important;
+    border: 1px solid red!important;
+}
+
+@media(max-width: 768px) {
+    .contactUs h4{
+        text-align: center;
+    }
+}
+@media(max-width: 576px) {
+    .contactUs h4{
+        text-align: center;
+    }
+}
